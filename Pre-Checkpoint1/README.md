@@ -33,6 +33,15 @@ print (name + ' is ' +age + ' years old!')
 ```
 
 ### Sample Json Objects
+```java
+{  
+    "employee": {  
+        "name":       "sonoo",   
+        "salary":      56000,   
+        "married":    true  
+    }  
+}  
+```
 
 
 ### Sample Table
