@@ -12,16 +12,19 @@
 - [Sample Table](sample-table)
 - [Sample Hperlink](sample-hyperlink)
 
+##
 
 ### Network Topology
 <img src="./Images/checkpoint1-diagram.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+##
 
 ### Single Line Code Snippet
 
 ` echo ("hello world") `
 
+##
 
 ### Multi Line Bash Script
 
@@ -31,6 +34,7 @@ name = "Divyansh"
 age= "24"
 print (name + ' is ' +age + ' years old!')
 ```
+##
 
 ### Sample Json Objects
 ```java
@@ -42,7 +46,7 @@ print (name + ' is ' +age + ' years old!')
     }  
 }  
 ```
-
+##
 
 ### Sample Table
 
@@ -51,7 +55,10 @@ print (name + ' is ' +age + ' years old!')
 | Divyansh| 24      | does nothing! |
 | Tirth   | 20      | student       |
 
+##
 
 ### Sample Hperlink
 
 [***Click here to see the creator of Darknet***](https://github.com/ddutt3)
+
+##
