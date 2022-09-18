@@ -25,7 +25,12 @@
 
 ### Multi Line Bash Script
 
-
+```bash 
+#!/usr/bin/env python3
+name = "Divyansh"
+age= "24"
+print (name + ' is ' +age + ' years old!')
+```
 
 ### Sample Json Objects
 
