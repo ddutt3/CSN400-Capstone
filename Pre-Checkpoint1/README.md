@@ -14,19 +14,19 @@
 
 ##
 
-### Network Topology
+### *Network Topology*
 <img src="./Images/checkpoint1-diagram.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 ##
 
-### Single Line Code Snippet
+### *Single Line Code Snippet*
 
 ` echo ("hello world") `
 
 ##
 
-### Multi Line Bash Script
+### *Multi Line Bash Script*
 
 ```bash 
 #!/usr/bin/env python3
@@ -36,7 +36,7 @@ print (name + ' is ' +age + ' years old!')
 ```
 ##
 
-### Sample Json Objects
+### *Sample Json Objects*
 ```java
 {  
     "employee": {  
@@ -48,7 +48,7 @@ print (name + ' is ' +age + ' years old!')
 ```
 ##
 
-### Sample Table
+### *Sample Table*
 
 | NAME    | AGE     |  OCCUPATION   |
 |---------|---------|---------------|
@@ -57,7 +57,7 @@ print (name + ' is ' +age + ' years old!')
 
 ##
 
-### Sample Hperlink
+### *Sample Hperlink*
 
 [***Click here to see the creator of Darknet***](https://github.com/ddutt3)
 
