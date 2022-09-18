@@ -3,10 +3,11 @@
 - **STUDENT'S NUMBER: 129611208**
 - **TEACHER’S NAME:  Atoosa Nasiri**
 
+***Table of Contents***
 
-Network Topology
-single line code snippet
-multi line code snippet (prferably bash script"
-sample json objects
-sample table
-sample hyperlink
+## Network Topology
+## Single Line Code Snippet
+## Multi Line Bash Script
+## Sample Json Objects
+## Sample Table
+## Sample Hperlink
