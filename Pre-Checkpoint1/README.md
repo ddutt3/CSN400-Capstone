@@ -61,6 +61,6 @@ print (name + ' is ' +age + ' years old!')
 
 ### *Sample Hperlink*
 
-[***Click here to see where I am currently in this course***](https://github.com/ddutt3/CSN400-Capstone)
+[***Click here to see where I am currently in this course.***](https://github.com/ddutt3/CSN400-Capstone)
 
 ##
