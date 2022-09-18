@@ -4,6 +4,7 @@
 - **TEACHER’S NAME:  Atoosa Nasiri**
 
 
+
 ## Table of Contents
 - [Network Topology](network-topology)
 - [Single Line Code Snippet](single-line-code-snippet)
@@ -37,6 +38,7 @@ print (name + ' is ' +age + ' years old!')
 ##
 
 ### *Sample Json Objects*
+
 ```java
 {  
     "employee": {  
