@@ -37,6 +37,10 @@ print (name + ' is ' +age + ' years old!')
 
 ### Sample Table
 
+| NAME    | AGE     |  OCCUPATION   |
+-------------------------------------
+| Divyansh| 24      | does nothing! |
+
 
 ### Sample Hperlink
 
