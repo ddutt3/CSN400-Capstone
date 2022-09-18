@@ -4,22 +4,22 @@
 - **TEACHER’S NAME:  Atoosa Nasiri**
 
 
-### Table of Contents
+## Table of Contents
 
 
-## Network Topology
+### Network Topology
 
 
-## Single Line Code Snippet
+### Single Line Code Snippet
 
 
-## Multi Line Bash Script
+### Multi Line Bash Script
 
 
-## Sample Json Objects
+### Sample Json Objects
 
 
-## Sample Table
+### Sample Table
 
 
-## Sample Hperlink
+### Sample Hperlink
