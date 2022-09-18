@@ -20,8 +20,11 @@
 
 ### Single Line Code Snippet
 
+` echo ("hello world") `
+
 
 ### Multi Line Bash Script
+
 
 
 ### Sample Json Objects
