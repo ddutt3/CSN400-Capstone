@@ -9,12 +9,12 @@
 
 
 ## Table of Contents
- [Network Topology](#network-topology)
+- :point_right: [Network Topology](#network-topology)
 - :point_right: [Single Line Code Snippet](#single-line-code-snippet)
 - :point_right: [Multi Line Bash Script](#multi-line-bash-script)
 - :point_right: [Sample Json Objects](#sample-json-objects)
 - :point_right: [Sample Table](#sample-table)
-- [Sample Hperlink](sample-hyperlink)
+- :point_right: [Sample Hperlink](#sample-hyperlink)
 
 ##
 
@@ -62,7 +62,7 @@ print (name + ' is ' +age + ' years old!')
 
 ##
 
-### *Sample Hperlink* 
+### *Sample Hperlink* :link:
 
 [***:point_right: CHECK MY GITHUB PROFILE HERE :point_left:***](https://github.com/settings/profile)
 
