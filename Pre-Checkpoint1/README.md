@@ -9,12 +9,12 @@
 
 
 ## Table of Contents
-- :point_right: [Network Topology](#network-topology)
+ [Network Topology](#network-topology)
 - :point_right: [Single Line Code Snippet](#single-line-code-snippet)
 - :point_right: [Multi Line Bash Script](#multi-line-bash-script)
 - :point_right: [Sample Json Objects](#sample-json-objects)
 - :point_right: [Sample Table](#sample-table)
-- :point_right: [Sample Hperlink](#sample-hyperlink)
+- [Sample Hperlink](#sample-hyperlink)
 
 ##
 
