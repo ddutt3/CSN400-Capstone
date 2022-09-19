@@ -14,7 +14,7 @@
 - :point_right: [Multi Line Bash Script](#multi-line-bash-script)
 - :point_right: [Sample Json Objects](#sample-json-objects)
 - :point_right: [Sample Table](#sample-table)
-- [Sample Hperlink](#sample-hyperlink)
+- [Sample Hperlink](sample-hyperlink)
 
 ##
 
