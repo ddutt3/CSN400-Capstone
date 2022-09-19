@@ -25,6 +25,7 @@
 ### *Single Line Code Snippet*
 
 ` echo ("hello world") `
+:innocent:
 
 ##
 
@@ -56,12 +57,12 @@ print (name + ' is ' +age + ' years old!')
 | NAME    | AGE     |  OCCUPATION   |
 |---------|---------|---------------|
 | Divyansh| 24      | does nothing! |
-| Tirth   | 20      | student       |
+| Avin    | 20      | my brother    |
 
 ##
 
 ### *Sample Hperlink*
 
-[***Click here to see where I am currently in this course.***](https://github.com/ddutt3/CSN400-Capstone)
+[***CHECK MY GITHUB PROFILE HERE ***]:(https://github.com/settings/profile)
 
 ##
