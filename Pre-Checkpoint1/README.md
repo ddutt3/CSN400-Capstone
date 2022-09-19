@@ -1,3 +1,5 @@
+:star2::star2::star2::star2::star2::star2::star2::star2::star2::star2::star2::star2::star2::star2:
+
 - **COURSE INFORMATION: CSN400 Computer Systems Projects**
 - **STUDENT’S NAME: Divyansh Dutt** 
 - **STUDENT'S NUMBER: 129611208**
@@ -16,20 +18,19 @@
 
 ##
 
-### *Network Topology*
+### *Network Topology* :computer:
 <img src="./Images/checkpoint1-diagram.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 ##
 
-### *Single Line Code Snippet*
+### *Single Line Code Snippet* :page_with_curl:
 
 ` echo ("hello world") `
-:innocent:
 
 ##
 
-### *Multi Line Bash Script*
+### *Multi Line Bash Script* :page_with_curl:
 
 ```bash 
 #!/usr/bin/env python3
@@ -39,7 +40,7 @@ print (name + ' is ' +age + ' years old!')
 ```
 ##
 
-### *Sample Json Objects*
+### *Sample Json Objects* :page_with_curl:
 
 ```java
 {  
@@ -52,7 +53,7 @@ print (name + ' is ' +age + ' years old!')
 ```
 ##
 
-### *Sample Table*
+### *Sample Table* :capital_abcd:
 
 | NAME    | AGE     |  OCCUPATION   |
 |---------|---------|---------------|
@@ -61,7 +62,7 @@ print (name + ' is ' +age + ' years old!')
 
 ##
 
-### *Sample Hperlink*
+### *Sample Hperlink* :link:
 
 [***:point_right: CHECK MY GITHUB PROFILE HERE :point_left:***](https://github.com/settings/profile)
 
