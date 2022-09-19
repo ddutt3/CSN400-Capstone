@@ -62,7 +62,7 @@ print (name + ' is ' +age + ' years old!')
 
 ##
 
-### *Sample Hperlink* :link:
+### *Sample Hperlink* 
 
 [***:point_right: CHECK MY GITHUB PROFILE HERE :point_left:***](https://github.com/settings/profile)
 
