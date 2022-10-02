@@ -5,12 +5,11 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ## Table of Contents
-- :point_right: [DevTest Lab Configurations](#DevTest Lab Configurations)
-- :point_right: [Single Line Code Snippet](#single-line-code-snippet)
-- :point_right: [Multi Line Bash Script](#multi-line-bash-script)
-- :point_right: [Sample Json Objects](#sample-json-objects)
-- :point_right: [Sample Table](#sample-table)
-- :point_right: [Sample Hperlink](#sample-hyperlink)
+- [DevTest Lab Configurations](#devtest-lab-configurations)
+- [Create and configure VMs through Portal](#Create-and-configure-vms-through-portal)
+- [Elaboration of configurations and services for connectivity between VMs](#elaboration-of-configurations-and-services-for-connectivity-between-vms)
+- [Conclusion](#conclusion)
+
 
 
 
@@ -57,7 +56,7 @@ Linux Server: LS-47
 For the linux virtual machines we configured the ssh as the authentication for which I created the storage account using the bash shell and generated the ssh key (public and private) and saved it in the storage account conveniently for the future use. The public key then was copied to both the virtual machines during their installation.
 
 ##
-- **Elaboration of configurations and services required to establish connectivity between the VMs.**
+- **Elaboration of configurations and services for connectivity between VMs.**
  ##
 After the virtual machines are created, now we will combine the network by connecting the virtual machines. To access the virtual machines we used the general virtual machines tab instead of the devtest tab, we just used devtest environment to create and easily deploy the VMs. There are many ways to connect through the virtual machine interface such as RDP, SSH, Bastion. Although, in this project we are going to use the Bastion to connect the windows client virtual machine (WC-47) first. The network is designed in such a way that we can only connect to WC-47 using the bastion service, apart from that none of the other virtual machines are accessible from bastion service. 
 Further, we are connecting the WC-47 by the bastion service using the username and password created at the time of VM deployment. In this there will be no error and the graphic user interface window will be opened as a typical windows 10. This shows that we have  successfully and correctly configured the virtual machine “WC-47”. After this, we should be able to connect to our second virtual machine because we have already configured peering between the WC-47 and LR-47 due to which we should be able to successfully ssh into the LR-47. Although, we need the ssh key into our WC-47 in order to connect it to the LR-47. To achieve this, we will create a file on the desktop will the same name “linuxrouter” in order to avoid further naming confusion in this file we will copy and paste the private key. This means when we attempt to connect to the LR-47 from the WC-47 command prompt, it will search for the private key on the file that we will mention in the command because the public key of the same has already been saved to the LR-47 during the creation of the machine.; The command to connect through the ssh is:
