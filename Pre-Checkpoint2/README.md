@@ -33,27 +33,27 @@ As per the network, we are creating 4 virtual machines, so we selected 4 images 
 - Red Hat Linux Enterprise 8.0 for Linux server
 
 After this we deployed each of the virtual machines very conveniently with just a few details within the devtest lab. Basically we just configured only 5 fields for each of the VM. 
-VM name 
-User name 
-Password for windows machines and ssh key for linux machines
-Virtual network
-Subnet
+ 1) VM name 
+ 2) User name 
+ 3) Password for windows machines and ssh key for linux machines
+ 4) Virtual network
+ 5) Subnet
 
 All the virtual machines are created in different virtual networks because that is the way our topology will work. Below are the details mentioned for the virtual machines.
 
-Windows 10 Client: WC-47
-Virtual network/Subnet:  Student-735371-vnet/Virtual-Desktop-Client
+	Windows 10 Client: WC-47
+	Virtual network/Subnet: Student-735371-vnet/Virtual-Desktop-Client
 
-Linux Router: LR-47
+	Linux Router: LR-47
 	Virtual network/Subnet: Router-47/SN1
 
-Windows Server: WS-47
+	Windows Server: WS-47
 	Virtual network/Subnet: Server-47/SN1
 
-Linux Server: LS-47
+	Linux Server: LS-47
 	Virtual network/Subnet: Server-47/SN1
 	
-For the linux virtual machines we configured the ssh as the authentication for which I created the storage account using the bash shell and generated the ssh key (public and private) and saved it in the storage account conveniently for the future use. The public key then was copied to both the virtual machines during their installation.
+For the linux virtual machines we configured the ssh as the authentication for which I created the storage account using the bash shell and generated the ssh key (public and private) and saved it in the storage account conveniently for the future use. The public key then was copied to both the linux virtual machines during their installation.
 
 ##
 - **Elaboration of configurations and services for connectivity between VMs.**
