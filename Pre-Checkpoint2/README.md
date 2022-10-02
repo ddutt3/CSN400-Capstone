@@ -3,14 +3,19 @@
 - **STUDENT'S NUMBER: 129611208**
 - **GITHUB USER_ID: ddutt3-129611208**
 - **TEACHER’S NAME: Atoosa Nasiri**
+
+
+
+
+
 ##
-- **DevTest Lab Configuration**
+- **DevTest Lab Configurations**
 ##
 To begin with, the project is started by creating the devtest lab name “CSN400-47”. It is created under the base resource group “ student-rg-735371”. For the creation settings, I turned the public environments OFF for better security and isolated environment and Auto Shutdown as default as it is the idle time for my VMs to automatically shutdown at 7PM for now to save further costs.
 
 After creation, I entered the Configuration and policies tab so that we can set out the base environment for the virtual machines as it is important so that we do not waste the resources or getting overcharged. In the Virtual machine Size is selected as B2s which is the most commonly used size due to its favorable features for regular testers or users for the minimal work. Limiting the virtual machines per user to 4, as we do not require more than 4 machines at the same time to work throughout this course. As we required the virtual machines in different Virtual networks according to the configuration, it is necessary that we add all the 3 virtual networks in the lab environment to use further. All the virtual machines are allocated in a single resource group because there are many reasons for this, most importantly we need to connect the virtual machines further which could not be achieved without this. 
 ##
-- **Step by step guide to create and configure each of you VMs through Portal**
+- **Create and configure VMs through Portal**
 ##
 We use devtest lab for such configurations because it provides various kinds of benefits such as isolation, easy and fast deployment. There are various steps involved to create the virtual machines.
 
@@ -46,7 +51,7 @@ Linux Server: LS-47
 For the linux virtual machines we configured the ssh as the authentication for which I created the storage account using the bash shell and generated the ssh key (public and private) and saved it in the storage account conveniently for the future use. The public key then was copied to both the virtual machines during their installation.
 
 ##
-- **Detailed elaboration of the steps, configurations and services required to establish basic connectivity between your machines.**
+- **Elaboration of configurations and services required to establish connectivity between the VMs.**
  ##
 After the virtual machines are created, now we will combine the network by connecting the virtual machines. To access the virtual machines we used the general virtual machines tab instead of the devtest tab, we just used devtest environment to create and easily deploy the VMs. There are many ways to connect through the virtual machine interface such as RDP, SSH, Bastion. Although, in this project we are going to use the Bastion to connect the windows client virtual machine (WC-47) first. The network is designed in such a way that we can only connect to WC-47 using the bastion service, apart from that none of the other virtual machines are accessible from bastion service. 
 Further, we are connecting the WC-47 by the bastion service using the username and password created at the time of VM deployment. In this there will be no error and the graphic user interface window will be opened as a typical windows 10. This shows that we have  successfully and correctly configured the virtual machine “WC-47”. After this, we should be able to connect to our second virtual machine because we have already configured peering between the WC-47 and LR-47 due to which we should be able to successfully ssh into the LR-47. Although, we need the ssh key into our WC-47 in order to connect it to the LR-47. To achieve this, we will create a file on the desktop will the same name “linuxrouter” in order to avoid further naming confusion in this file we will copy and paste the private key. This means when we attempt to connect to the LR-47 from the WC-47 command prompt, it will search for the private key on the file that we will mention in the command because the public key of the same has already been saved to the LR-47 during the creation of the machine.; The command to connect through the ssh is:
