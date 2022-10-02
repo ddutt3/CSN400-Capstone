@@ -57,4 +57,7 @@ Now there is another way to connect the WC-47 to LS-47 without even using bastio
 To achieve  this there are few configurations required such as NIC interface:
 Enable IP forwarding in the NIC so that the traffic can be forwarded.
 IP tables are also required to be configured to successfully connect through RDP.
-
+##
+-**Conclusion**
+##
+In brief, there are lots of benefits of using the devtest labs because it gives an isolated environment to create and test the network configurations, and also help in fast and easy deployment of resources. In our configuration I was able to learn the importance of devtest labs and how to configure it and use it, what a storage account is and how it works when it comes to storing ssh keys and using them, and how to connect another virtual machine using ssh key within one VMs shell. The importance of peering and route tables which help us to connect 2 devices without the need of SSH using the RDP connection although, for this Nic needs to be configured properly.
