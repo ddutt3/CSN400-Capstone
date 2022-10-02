@@ -4,7 +4,13 @@
 - **GITHUB USER_ID: ddutt3-129611208**
 - **TEACHER’S NAME: Atoosa Nasiri**
 
-
+## Table of Contents
+- :point_right: [DevTest Lab Configurations](#DevTest Lab Configurations)
+- :point_right: [Single Line Code Snippet](#single-line-code-snippet)
+- :point_right: [Multi Line Bash Script](#multi-line-bash-script)
+- :point_right: [Sample Json Objects](#sample-json-objects)
+- :point_right: [Sample Table](#sample-table)
+- :point_right: [Sample Hperlink](#sample-hyperlink)
 
 
 
