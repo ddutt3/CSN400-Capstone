@@ -73,7 +73,9 @@ After this the virtual machine LR-47 is successfully connected using the ssh, th
 Similarly, we can also connect the 3rd virtual machine in the network which is linux server ”LS-47” because the ssh public key was also saved into the VM during deployment and the peering is also enabled between LR-47 and LS-47. 
 Now there is another way to connect the WC-47 to LS-47 without even using bastion. We can use RDP connection to connect both of them because there are route tables configured already and peering is there.
 To achieve  this there are few configurations required such as NIC interface:
+
 Enable IP forwarding in the NIC so that the traffic can be forwarded.
+
 IP tables are also required to be configured to successfully connect through RDP.
 ##
  **Conclusion**
