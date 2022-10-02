@@ -5,10 +5,13 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ## Table of Contents
-### [DevTest Lab Configurations](devtest-lab-configurations)
-### [Create and configure VMs through Portal](Create-and-configure-vms-through-portal)
-### [Elaboration of configurations and services for connectivity between VMs](elaboration-of-configurations-and-services-for-connectivity-between-vms)
-### [Conclusion](conclusion)
+[DevTest Lab Configurations](devtest-lab-configurations)
+
+[Create and configure VMs through Portal](Create-and-configure-vms-through-portal)
+
+[Elaboration of configurations and services for connectivity between VMs](elaboration-of-configurations-and-services-for-connectivity-between-vms)
+
+[Conclusion](conclusion)
 
 
 
