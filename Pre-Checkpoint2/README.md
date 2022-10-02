@@ -27,10 +27,10 @@ We use devtest lab for such configurations because it provides various kinds of 
 Selecting the virtual machines images under the “Marketplace images”.
 As per the network, we are creating 4 virtual machines, so we selected 4 images to deploy this, they are:
 
-Windows 10 Pro 21H1 for Windows 10 Client
-Red Hat Linux Enterprise 8.0 for Linux Router
-Windows 2019 Datacenter for Windows Server 
-Red Hat Linux Enterprise 8.0 for Linux server
+- Windows 10 Pro 21H1 for Windows 10 Client
+- Red Hat Linux Enterprise 8.0 for Linux Router
+- Windows 2019 Datacenter for Windows Server 
+- Red Hat Linux Enterprise 8.0 for Linux server
 
 After this we deployed each of the virtual machines very conveniently with just a few details within the devtest lab. Basically we just configured only 5 fields for each of the VM. 
 VM name 
