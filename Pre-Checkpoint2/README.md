@@ -14,13 +14,13 @@
 
 
 ##
-- **DevTest Lab Configurations**
+ **DevTest Lab Configurations**
 ##
 To begin with, the project is started by creating the devtest lab name “CSN400-47”. It is created under the base resource group “ student-rg-735371”. For the creation settings, I turned the public environments OFF for better security and isolated environment and Auto Shutdown as default as it is the idle time for my VMs to automatically shutdown at 7PM for now to save further costs.
 
 After creation, I entered the Configuration and policies tab so that we can set out the base environment for the virtual machines as it is important so that we do not waste the resources or getting overcharged. In the Virtual machine Size is selected as B2s which is the most commonly used size due to its favorable features for regular testers or users for the minimal work. Limiting the virtual machines per user to 4, as we do not require more than 4 machines at the same time to work throughout this course. As we required the virtual machines in different Virtual networks according to the configuration, it is necessary that we add all the 3 virtual networks in the lab environment to use further. All the virtual machines are allocated in a single resource group because there are many reasons for this, most importantly we need to connect the virtual machines further which could not be achieved without this. 
 ##
-- **Create and configure VMs through Portal**
+ **Create and configure VMs through Portal**
 ##
 We use devtest lab for such configurations because it provides various kinds of benefits such as isolation, easy and fast deployment. There are various steps involved to create the virtual machines.
 
@@ -56,7 +56,7 @@ All the virtual machines are created in different virtual networks because that 
 For the linux virtual machines we configured the ssh as the authentication for which I created the storage account using the bash shell and generated the ssh key (public and private) and saved it in the storage account conveniently for the future use. The public key then was copied to both the linux virtual machines during their installation.
 
 ##
-- **Elaboration of configurations and services for connectivity between VMs**
+ **Elaboration of configurations and services for connectivity between VMs**
 ##
 After the virtual machines are created, now we will combine the network by connecting the virtual machines. To access the virtual machines we used the general virtual machines tab instead of the devtest tab, we just used devtest environment to create and easily deploy the VMs. There are many ways to connect through the virtual machine interface such as RDP, SSH, Bastion. Although, in this project we are going to use the Bastion to connect the windows client virtual machine (WC-47) first. The network is designed in such a way that we can only connect to WC-47 using the bastion service, apart from that none of the other virtual machines are accessible from bastion service.
 
@@ -73,6 +73,6 @@ To achieve  this there are few configurations required such as NIC interface:
 Enable IP forwarding in the NIC so that the traffic can be forwarded.
 IP tables are also required to be configured to successfully connect through RDP.
 ##
-- **Conclusion**
+ **Conclusion**
 ##
 In brief, there are lots of benefits of using the devtest labs because it gives an isolated environment to create and test the network configurations, and also help in fast and easy deployment of resources. In our configuration I was able to learn the importance of devtest labs and how to configure it and use it, what a storage account is and how it works when it comes to storing ssh keys and using them, and how to connect another virtual machine using ssh key within one VMs shell. The importance of peering and route tables which help us to connect 2 devices without the need of SSH using the RDP connection although, for this NIC needs to be configured properly.
