@@ -13,3 +13,8 @@
   - [git log -4](#git-log--4)
 
 
+## git remote -v
+```
+origin  https://github.com/ddutt3-129611208/CSN400-Capstone.git (fetch)
+origin  https://github.com/ddutt3-129611208/CSN400-Capstone.git (push)
+```
