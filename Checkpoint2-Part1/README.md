@@ -15,12 +15,16 @@
 ##  az lab vm list
 
 `az lab vm list  --lab-name CSN400-xx --resource-group Student-RG-xxxxxx`
-
+ 
+ OUTPUT:
+ 
 `[]`
 
 ## az lab custom image list
 
 `az lab custom-image list  --lab-name CSN400-xx --resource-group Student-RG-xxxxxx --query "[ [].name , [].vm.sourceVmId ]" `
+
+OUTPUT:
 
 ```
 [
