@@ -18,3 +18,10 @@
 origin  https://github.com/ddutt3-129611208/CSN400-Capstone.git (fetch)
 origin  https://github.com/ddutt3-129611208/CSN400-Capstone.git (push)
 ```
+
+## git branch -l
+```
+  feature1
+  feature2
+* main
+```
