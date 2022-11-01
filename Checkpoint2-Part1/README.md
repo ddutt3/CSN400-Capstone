@@ -8,14 +8,17 @@
 ## Table of Contents
 -  [az lab vm list](#az-lab-vm-list)
 -  [az lab custom image list](#az-lab-custom-image-list)
--  [Multi Line Bash Script](#multi-line-bash-script)
 -  [lr iptables](#lr-iptables)
 -  [ls iptables](#ls-iptables)
 
 
+##  az lab vm list
+
 az lab vm list  --lab-name CSN400-xx --resource-group Student-RG-xxxxxx
 
 []
+
+## az lab custom image list
 
 az lab custom-image list  --lab-name CSN400-xx --resource-group Student-RG-xxxxxx --query "[ [].name , [].vm.sourceVmId ]" 
 
@@ -34,7 +37,7 @@ az lab custom-image list  --lab-name CSN400-xx --resource-group Student-RG-xxxxx
   ]
 ]
 
-lr -iptables
+## lr iptables
 
 [ddutt3@LR-47 ~]$ sudo iptables -nvL
 Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
@@ -53,7 +56,7 @@ Chain OUTPUT (policy ACCEPT 3765 packets, 976K bytes)
 
 
 
-ls -iptables
+## ls iptables
 
 [ddutt3@LS-47 ~]$ sudo iptables -nvL
 Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
