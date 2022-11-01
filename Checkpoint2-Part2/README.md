@@ -4,3 +4,12 @@
 - **GITHUB USER_ID: ddutt3-129611208**
 - **TEACHER’S NAME: Atoosa Nasiri**
 - **ASSIGNMENT REF: Checkpoint2-Part2-Report**
+
+
+- ***Table of Contents***
+
+  - [git remote -v](#git-remote--v)
+  - [git branch -l](#git-branch--l)
+  - [git log -4](#git-log--4)
+
+
