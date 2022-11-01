@@ -14,14 +14,15 @@
 
 ##  az lab vm list
 
-az lab vm list  --lab-name CSN400-xx --resource-group Student-RG-xxxxxx
+`az lab vm list  --lab-name CSN400-xx --resource-group Student-RG-xxxxxx`
 
-[]
+`[]`
 
 ## az lab custom image list
 
-az lab custom-image list  --lab-name CSN400-xx --resource-group Student-RG-xxxxxx --query "[ [].name , [].vm.sourceVmId ]" 
+`az lab custom-image list  --lab-name CSN400-xx --resource-group Student-RG-xxxxxx --query "[ [].name , [].vm.sourceVmId ]" `
 
+```
 [
   [
     "LR-47ci",
@@ -36,9 +37,11 @@ az lab custom-image list  --lab-name CSN400-xx --resource-group Student-RG-xxxxx
     "/subscriptions/e22a2bd0-d760-4866-9918-1c98f501eb6a/resourcegroups/student-rg-735371/providers/microsoft.devtestlab/labs/csn400-47/virtualmachines/wc-47"
   ]
 ]
+```
 
 ## lr iptables
 
+```
 [ddutt3@LR-47 ~]$ sudo iptables -nvL
 Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
  pkts bytes target     prot opt in     out     source               destination
@@ -53,11 +56,13 @@ Chain FORWARD (policy ACCEPT 2010 packets, 993K bytes)
 
 Chain OUTPUT (policy ACCEPT 3765 packets, 976K bytes)
  pkts bytes target     prot opt in     out     source               destination
+ ```
 
 
 
 ## ls iptables
 
+```
 [ddutt3@LS-47 ~]$ sudo iptables -nvL
 Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
  pkts bytes target     prot opt in     out     source               destination
@@ -67,3 +72,4 @@ Chain FORWARD (policy DROP 0 packets, 0 bytes)
 
 Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
  pkts bytes target     prot opt in     out     source               destination
+```
