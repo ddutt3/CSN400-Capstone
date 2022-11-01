@@ -6,12 +6,11 @@
 - **ASSIGNMENT REF: Checkpoint2-Part1-Report**
 
 ## Table of Contents
--  [Network Topology](#network-topology)
--  [Single Line Code Snippet](#single-line-code-snippet)
+-  [az lab vm list](#az-lab-vm-list)
+-  [az lab custom image list](#az-lab-custom-image-list)
 -  [Multi Line Bash Script](#multi-line-bash-script)
--  [Sample Json Objects](#sample-json-objects)
--  [Sample Table](#sample-table)
--  [Sample Hperlink](#sample-hyperlink)
+-  [lr iptables](#lr-iptables)
+-  [ls iptables](#ls-iptables)
 
 
 az lab vm list  --lab-name CSN400-xx --resource-group Student-RG-xxxxxx
