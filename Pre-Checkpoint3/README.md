@@ -154,8 +154,8 @@ iptables -nvL
 
 ```
 ## screenshot of iptables from Linux Router VM 
-<img src="./IMAGES/lr_iptables"
-     alt="lr_iptables"
+<img src="./IMAGES/lr_iptables.jpg"
+     alt="lr iptables"
      style="float: left; margin-right: 10px;" />
 
 
