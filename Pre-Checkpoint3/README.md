@@ -7,10 +7,10 @@
 
 ## Table of Contents
 - [iptables for router VM](#iptables-for-router-VM)
-- [CP3_lr_firewalls_xx.sh script](#CP3_lr_firewalls_xx.sh-script)
+- [CP3_lr_firewalls_47.sh script](#CP3_lr_firewalls_47.sh-script)
 - [screenshot of iptables from Linux Router VM](screenshot-of-iptables-from-Linux-Router-VM)
 - [iptables for Linux Server VM](#iptables-for-Linux-Server-VM)
-- [CP3_ls_firewalls_xx.sh script](#CP3_ls_firewalls_xx.sh-script)
+- [CP3_ls_firewalls_47.sh script](#CP3_ls_firewalls_47.sh-script)
 - [screenshot of iptables from Linux Server VM](#screenshot-of-iptables-from-Linux-Server-VM)
 
 ## iptables for router VM
@@ -52,7 +52,7 @@ Chain OUTPUT (policy ACCEPT 19591 packets, 4509K bytes)
 
 ```
 
- ## CP3_lr_firewalls_xx.sh script
+ ## CP3_lr_firewalls_47.sh script
 
 ``` 
 # Close everything and flush chains
@@ -183,7 +183,7 @@ Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
   738 60936 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
 
 ```
-## CP3_ls_firewalls_xx.sh script 
+## CP3_ls_firewalls_47.sh script 
 
 ```
 #Firewall Settings to allow specific traffic on Server
