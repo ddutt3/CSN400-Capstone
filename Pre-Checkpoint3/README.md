@@ -154,9 +154,7 @@ iptables -nvL
 
 ```
 ## screenshot of iptables from Linux Router VM 
-<img src="./IMAGES/lr_iptables.jpg"
-     alt="lr iptables"
-     style="float: left; margin-right: 10px;" />
+![lr_iptables](https://user-images.githubusercontent.com/113653738/199390699-de03f819-6670-40de-96ab-5f83e16ae5c3.jpg)
 
 
 ## iptables for Linux Server VM 
@@ -266,6 +264,5 @@ iptables -nvL
 ```
 
 ## screenshot of iptables from Linux Server VM
-<img src="./IMAGES/ls_iptables.jpg"
-     alt="ls iptables"
-     style="float: left; margin-right: 10px;" />
+![ls_iptables](https://user-images.githubusercontent.com/113653738/199390701-7d376411-b4eb-4cc7-99fd-cfcf5438dd86.jpg)
+
