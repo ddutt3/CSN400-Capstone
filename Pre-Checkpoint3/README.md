@@ -266,6 +266,6 @@ iptables -nvL
 ```
 
 ## screenshot of iptables from Linux Server VM
-<img src="./IMAGES/ls_iptables"
-     alt="ls_iptables"
+<img src="./IMAGES/ls_iptables.jpg"
+     alt="ls iptables"
      style="float: left; margin-right: 10px;" />
