@@ -5,6 +5,14 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 - **ASSIGNMENT REF: Pre-Checkpoint3**
 
+## Table of Contents
+- [iptables for router VM](#iptables-for-router-VM)
+- [CP3_lr_firewalls_xx.sh script](#CP3_lr_firewalls_xx.sh-script)
+- [screenshot of iptables from Linux Router VM](screenshot-of-iptables-from-Linux-Router-VM)
+- [iptables for Linux Server VM](#iptables-for-Linux-Server-VM)
+- [CP3_ls_firewalls_xx.sh script](#CP3_ls_firewalls_xx.sh-script)
+- [screenshot of iptables from Linux Server VM](#screenshot-of-iptables-from-Linux-Server-VM)
+
 ## iptables for router VM
 
 ```
