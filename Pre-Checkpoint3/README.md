@@ -181,3 +181,10 @@ echo "list current iptables status"
 iptables -nvL
 
 ```
+## screenshot of iptables from Linux Router VM 
+<img src="./IMAGES/lr_iptables"
+     alt="lr_iptables"
+     style="float: left; margin-right: 10px;" />
+
+
+## iptables for Linux Server VM 
